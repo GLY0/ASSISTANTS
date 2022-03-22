@@ -38,19 +38,19 @@ int main(){
 }
 void asignacion(int i){
 	for(i=0;i<n;i++){
-			if(asistentes[i].gender=='F'||asistentes[i].gender=='f'){
-				female[i]=asistentes[i];
-				printf("\nName: %s",female[i].name);
-				printf("\nAge: %i",female[i].age);
-				printf("\nGender: Female");
-				printf("\n");
-			}else if(asistentes[i].gender=='M'||asistentes[i].gender=='m'){
-				male[i]=asistentes[i];
-				printf("\nName: %s",male[i].name);
-				printf("\nAge: %i",male[i].age);
-				printf("\nGender: Male");
-				printf("\n");	
-			}
+		if(asistentes[i].gender=='F'||asistentes[i].gender=='f'){
+			female[i]=asistentes[i];
+			printf("\nName: %s",female[i].name);
+			printf("\nAge: %i",female[i].age);
+			printf("\nGender: Female");
+			printf("\n");
+		}else if(asistentes[i].gender=='M'||asistentes[i].gender=='m'){
+			male[i]=asistentes[i];
+			printf("\nName: %s",male[i].name);
+			printf("\nAge: %i",male[i].age);
+			printf("\nGender: Male");
+			printf("\n");	
+		}
 	}	
 }
 void counterf(int i){
